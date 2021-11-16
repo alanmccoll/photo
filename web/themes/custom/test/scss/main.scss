@@ -1,0 +1,77 @@
+// variables
+//@import "variables";
+// typography
+//@import "typography";
+//bootstrap
+//@import "import/bootstrap";
+//material design bootstrap
+//@import "../node_modules/mdbootstrap/scss/mdb-free.scss";
+// mixins
+//@import "mixins";
+//@import "style";
+
+
+@import "bootstrap/variables";
+//@import "overrides/overrides";
+
+//@import "bootstrap/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "bootstrap/bootswatch";
+
+// define override variables here
+$body-bg:#1a1a1a;
+$primary-bg:#212e45;
+
+
+.bg-wallpaper {
+min-height:600px;	
+background:url("../images/bg.jpg") no-repeat center fixed;
+background-size:cover;
+}
+//===================================
+.bg-primary {
+	background-color:$primary-bg !important;
+}
+
+html {
+	font-size:16px;
+}
+body {
+	background:none;
+	//font-weight:300;
+	letter-spacing:1px;
+}
+
+// fonts
+h1 {
+	font-weight:100 !important;
+}
+
+
+.demo-block {
+	color:#222;
+}
+.navbar-brand {
+	font-family: 'Tangerine', cursive;
+	font-size:3.75em;
+	padding-left:.5em;
+}
+ .nav-link  {
+	color:#98aeda;
+}
+ .nav-link:hover, .nav-link:focus	{
+    color:#d2d5ee;
+    text-decoration:underline;
+}
+.bg-secondary {
+	background-color:#030303 !important;
+}
+.front-three-col-wrapper {
+	text-align:center;
+}
+img {
+	border:none;
+	object-position:-1px center;
+}
+// ------------------ Typography ------------------- //
+
